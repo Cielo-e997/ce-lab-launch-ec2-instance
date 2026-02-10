@@ -1,0 +1,7 @@
+Inbound Rules:
+- SSH | TCP | Port 22 | Source: 178.6.50.50/32 | Description: SSH from my IP
+- HTTP | TCP | Port 80 | Source: 0.0.0.0/0 | Description: Public HTTP access
+
+Outbound Rules:
+- All traffic | All protocols | All ports | Destination: 0.0.0.0/0
+
